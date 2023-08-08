@@ -11,9 +11,17 @@ export const Header = () => {
 
   return (
     <div className={`header ${isNavOpen ? "open" : ""}`}>
+<<<<<<< HEAD
       <div className="logo-container">
         <img src="./myImage.png" alt="Logo" className="logo" />
       </div>
+=======
+      <button className="hamburger" onClick={toggleNav}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </button>
+>>>>>>> 605ff0441b6bc933cf085d32597e383a0424ca37
       <nav>
         <ul className={`nav ${isNavOpen ? "nav-enter" : "nav-exit"}`}>
           <li>
@@ -48,11 +56,14 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
+<<<<<<< HEAD
       <button className="hamburger" onClick={toggleNav}>
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </button>
+=======
+>>>>>>> 605ff0441b6bc933cf085d32597e383a0424ca37
     </div>
   );
 };

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header {
   background-color: #0c2845d9;
   display: flex;
@@ -32,6 +33,19 @@
   max-height: 130%;
   background-color: #070706;
 }
+=======
+/* Header.css */
+
+/* Common styles */
+.header {
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+>>>>>>> 605ff0441b6bc933cf085d32597e383a0424ca37
 ul {
   list-style: none;
   margin: 0;
@@ -40,13 +54,18 @@ ul {
 }
 
 li {
+<<<<<<< HEAD
   margin-right: 3rem;
   font-size: 2rem;
+=======
+  margin-right: 1rem;
+>>>>>>> 605ff0441b6bc933cf085d32597e383a0424ca37
 }
 
 a {
   color: white;
   text-decoration: none;
+<<<<<<< HEAD
 
   transition: color 0.3s, font-size 0.5s ease-in-out;
 }
@@ -54,6 +73,13 @@ a {
 a:hover {
   color: #070706;
   font-size: 3rem;
+=======
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #e0e0e0;
+>>>>>>> 605ff0441b6bc933cf085d32597e383a0424ca37
 }
 
 /* Hamburger menu styles */
@@ -78,7 +104,11 @@ a:hover {
 /* Mobile menu styles */
 @media (max-width: 768px) {
   .header.open {
+<<<<<<< HEAD
     background-color: #0c2845d9;
+=======
+    background-color: rgba(0, 123, 255, 0.9);
+>>>>>>> 605ff0441b6bc933cf085d32597e383a0424ca37
     position: fixed;
     top: 0;
     left: 0;
